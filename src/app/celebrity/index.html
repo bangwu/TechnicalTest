@@ -1,6 +1,9 @@
-<div class="celebrity-list">
-  <div class="sort"></div>
-  <div class="details">
-    <celebrity-detail ng-repeat="celebrity in celebrityRichList.celebrityList"></celebrity-detail>
+<div class="celebrity-list col-md-8 col-md-offset-2">
+  <div class="sort col-md-10 col-md-offset-1">
+    <celebrity-sort></celebrity-sort>
+  </div>
+  <div class="details col-md-10 col-md-offset-1">
+    <celebrity-detail
+      ng-repeat="celebrity in celebrityRichList.celebrityList | filter: {country: country}| filter: search| orderBy: orderType"></celebrity-detail>
   </div>
 </div>

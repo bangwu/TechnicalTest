@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html ng-app="mediaApp">
+<html ng-app="media.app">
   <head>
     <meta charset="utf-8"/>
     <title>Technical Test</title>
     <!-- inject:vendor:css -->
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-theme.css.css"/>
     <!-- endinject -->
     <!-- inject:css -->
     <link rel="stylesheet" href="/css/app.css">
     <!-- endinject -->
   </head>
-  <body ng-controller="CelebrityListController" ng-init="init()">
+  <body ng-controller="CelebrityListController">
     <h1 ng-bind="celebrityRichList.pageTitleH1"></h1>
     <h2 ng-bind="celebrityRichList.pageTitleH2"></h2>
-    <h4 ng-bind="celebrityRichList.description"></h4>
+    <h5 ng-bind="celebrityRichList.description"></h5>
+    <h6>Reference: <a href="celebrityRichList.referenceLink" ng-bind="celebrityRichList.referenceLink"></a></h6>
     <ng-view></ng-view>
     <!-- inject:vendor:js -->
     <script src="/angular/angular.js"></script>
     <script src="/angular-route/angular-route.js"></script>
+    <script src="/underscore/underscore.js"></script>
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endinject -->
     <!-- inject:js -->
+    <script src="/celebrity/celebrity.js"></script>
+    <script src="/celebrity/celebrity_filter.js"></script>
+    <script src="/celebrity/celebrity_directive.js"></script>
     <script src="/celebrity/celebrity_controller.js"></script>
     <script src="/app.js"></script>
     <script src="/technicaltest-templates.js"></script>

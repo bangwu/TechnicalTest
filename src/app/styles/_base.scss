@@ -2,11 +2,21 @@ body {
   margin: 0 auto;
   width: 80%;
 }
-h1, h2, h4{
+h1, h2, h5, h6{
   margin: 0 auto;
   text-align: center;
 }
 
+h2{
+  margin-top: 2%;
+}
+h1, h5{
+  margin-top: 1%;
+}
+h6{
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
 input,
 textarea,
 button {

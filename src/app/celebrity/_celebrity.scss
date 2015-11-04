@@ -1,21 +1,29 @@
 .celebrity-list{
   background-color: #f4f4f4;
-  width: 80%;
   border: 1px solid #dfdfdf;
-  margin: 0 auto;
+  .sort{
+    padding-left: 0px;
+    padding-right: 0px;
+    .sort-group{
+      padding-left: 0px;
+      padding-right: 0px;
+      .label{
+        color: black;
+      }
+    }
+  }
   .details{
-    width: 80%;
     border: 1px solid #dfdfdf;
-    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
     .celebrity{
       text-align: center;
-      width: 80%;
       border: 1px solid #dfdfdf;
-      margin: 0 auto;
       .no{
         height: 30px;
         background-color: #335872;
         color: white;
+        padding-top: 6px;
       }
       .name, .net-worth, .age, .country{
         color: black;
