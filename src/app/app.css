@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  width: 80%; }
+
+h1, h2, h4 {
+  margin: 0 auto;
+  text-align: center; }
+
+input,
+textarea,
+button {
+  font: inherit; }
+
+.celebrity-list {
+  background-color: #f4f4f4;
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  margin: 0 auto; }
+  .celebrity-list .details {
+    width: 80%;
+    border: 1px solid #dfdfdf;
+    margin: 0 auto; }
+    .celebrity-list .details .celebrity {
+      text-align: center;
+      width: 80%;
+      border: 1px solid #dfdfdf;
+      margin: 0 auto; }
+      .celebrity-list .details .celebrity .no {
+        height: 30px;
+        background-color: #335872;
+        color: white; }
+      .celebrity-list .details .celebrity .name, .celebrity-list .details .celebrity .net-worth, .celebrity-list .details .celebrity .age, .celebrity-list .details .celebrity .country {
+        color: black;
+        margin: 2%; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,361 @@
+{
+  "pageTitleH1": "Technical Test",
+  "pageTitleH2": "Celebrity Rich List",
+  "description": "A list of the Top 50 Richest Celebrities of 2014",
+  "referenceLink": "http://www.therichest.com/top-lists/top-100-richest-celebrities/",
+  "usDollarValue":"1",
+  "australianDollarValue":"0.78",
+  "euroValue":"0.92",
+  "celebrityList": [
+    {
+      "rank": 1,
+      "name": "John Walton",
+      "netWorth": 21000000000,
+      "age": "68",
+      "country": "United States"
+    },
+    {
+      "rank": 2,
+      "name": "Rupert Murdoch",
+      "netWorth": 14000000000,
+      "age": "84",
+      "country": "Australia"
+    },
+    {
+      "rank": 3,
+      "name": "Donald Newhouse",
+      "netWorth": 8400000000,
+      "age": "85",
+      "country": "United States"
+    },
+    {
+      "rank": 4,
+      "name": "Ralph Lauren",
+      "netWorth": 7100000000,
+      "age": "75",
+      "country": "United States"
+    },
+    {
+      "rank": 5,
+      "name": "Dina Merrill",
+      "netWorth": 5100000000,
+      "age": "91",
+      "country": "United States"
+    },
+    {
+      "rank": 6,
+      "name": "George Lucas",
+      "netWorth": 4900000000,
+      "age": "70",
+      "country": "United States"
+    },
+    {
+      "rank": 7,
+      "name": "James Packer",
+      "netWorth": 4400000000,
+      "age": "50",
+      "country": "Australia"
+    },
+    {
+      "rank": 8,
+      "name": "Sumner Redstone",
+      "netWorth": 4400000000,
+      "age": "91",
+      "country": "United States"
+    },
+    {
+      "rank": 9,
+      "name": "Arnon Milchan",
+      "netWorth": 3800000000,
+      "age": "70",
+      "country": "Israel"
+    },
+    {
+      "rank": 10,
+      "name": "Patrizio Bertelli",
+      "netWorth": 3700000000,
+      "age": "64",
+      "country": "Italy"
+    },
+    {
+      "rank": 11,
+      "name": "Barbara Piasecka Johnson",
+      "netWorth": 3600000000,
+      "age": "78",
+      "country": "Poland"
+    },
+    {
+      "rank": 12,
+      "name": "Steven Spielberg",
+      "netWorth": 3500000000,
+      "age": "68",
+      "country": "United States"
+    },
+    {
+      "rank": 13,
+      "name": "Kalanithi Maran",
+      "netWorth": 3300000000,
+      "age": "51",
+      "country": "India"
+    },
+    {
+      "rank": 14,
+      "name": "Oprah Winfrey",
+      "netWorth": 3000000000,
+      "age": "61",
+      "country": "United States"
+    },
+    {
+      "rank": 15,
+      "name": "Julia Louis-Dreyfus",
+      "netWorth": 3000000000,
+      "age": "54",
+      "country": "United States"
+    },
+    {
+      "rank": 16,
+      "name": "Haim Saban",
+      "netWorth": 2900000000,
+      "age": "70",
+      "country": "Israel"
+    },
+    {
+      "rank": 17,
+      "name": "Joao Moreira Salles",
+      "netWorth": 2700000000,
+      "age": "53",
+      "country": "Brazil"
+    },
+    {
+      "rank": 18,
+      "name": "Indu Jain",
+      "netWorth": 2600000000,
+      "age": "78",
+      "country": "India"
+    },
+    {
+      "rank": 19,
+      "name": "Davis Guggenheim",
+      "netWorth": 2500000000,
+      "age": "51",
+      "country": "United States"
+    },
+    {
+      "rank": 20,
+      "name": "Mort Zuckerman",
+      "netWorth": 2400000000,
+      "age": "77",
+      "country": "Canada"
+    },
+    {
+      "rank": 21,
+      "name": "Ted Turner",
+      "netWorth": 2300000000,
+      "age": "76",
+      "country": "United States"
+    },
+    {
+      "rank": 22,
+      "name": "Stanley Perron",
+      "netWorth": 2100000000,
+      "age": "92",
+      "country": "Australia"
+    },
+    {
+      "rank": 23,
+      "name": "Clive Calder",
+      "netWorth": 2025000000,
+      "age": "69",
+      "country": "South Africa"
+    },
+    {
+      "rank": 24,
+      "name": "John de Mol",
+      "netWorth": 2000000000,
+      "age": "59",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 25,
+      "name": "Richard Desmond",
+      "netWorth": 1900000000,
+      "age": "60",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 26,
+      "name": "Austin Hearst",
+      "netWorth": 1900000000,
+      "age": "62",
+      "country": "United States"
+    },
+    {
+      "rank": 27,
+      "name": "Joop van den Ende",
+      "netWorth": 1600000000,
+      "age": "73",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 28,
+      "name": "Miuccia Prada",
+      "netWorth": 1400000000,
+      "age": "65",
+      "country": "Italy"
+    },
+    {
+      "rank": 29,
+      "name": "Silvio Santos",
+      "netWorth": 1300000000,
+      "age": "84",
+      "country": "Brazil"
+    },
+    {
+      "rank": 30,
+      "name": "Andrew Lloyd Webber",
+      "netWorth": 1200000000,
+      "age": "66",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 31,
+      "name": "Max Azria",
+      "netWorth": 1200000000,
+      "age": "66",
+      "country": "Tunisia"
+    },
+    {
+      "rank": 32,
+      "name": "Andrea Della Valle",
+      "netWorth": 1200000000,
+      "age": "66",
+      "country": "Italy"
+    },
+    {
+      "rank": 33,
+      "name": "Slavica Ecclestone",
+      "netWorth": 1200000000,
+      "age": "56",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 34,
+      "name": "Jeffrey Lurie",
+      "netWorth": 1200000000,
+      "age": "56",
+      "country": "United States"
+    },
+    {
+      "rank": 35,
+      "name": "Elisabeth Badinter",
+      "netWorth": 1100000000,
+      "age": "71",
+      "country": "France"
+    },
+    {
+      "rank": 36,
+      "name": "Viscount Rothermere",
+      "netWorth": 1095000000,
+      "age": "53",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 37,
+      "name": "Cameron Mackintosh",
+      "netWorth": 1087500000,
+      "age": "68",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 38,
+      "name": "Merv Griffin",
+      "netWorth": 1000000000,
+      "age": "89",
+      "country": "United States"
+    },
+    {
+      "rank": 39,
+      "name": "Jonathan Harmsworth",
+      "netWorth": 1000000000,
+      "age": "47",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 40,
+      "name": "Ryan Kavanaugh",
+      "netWorth": 1000000000,
+      "age": "40",
+      "country": "United States"
+    },
+    {
+      "rank": 41,
+      "name": "Tory Burch",
+      "netWorth": 1000000000,
+      "age": "48",
+      "country": "United States"
+    },
+    {
+      "rank": 42,
+      "name": "J.K. Rowling",
+      "netWorth": 1000000000,
+      "age": "49",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 43,
+      "name": "David Bromilow",
+      "netWorth": 975000000,
+      "age": "49",
+      "country": "Germany"
+    },
+    {
+      "rank": 44,
+      "name": "Lord Lloyd-Webber",
+      "netWorth": 885000000,
+      "age": "66",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 45,
+      "name": "Jeffrey Katzenberg",
+      "netWorth": 860000000,
+      "age": "64",
+      "country": "United States"
+    },
+    {
+      "rank": 46,
+      "name": "Jerry Bruckheimer",
+      "netWorth": 850000000,
+      "age": "71",
+      "country": "United States"
+    },
+    {
+      "rank": 47,
+      "name": "U2",
+      "netWorth": 838000000,
+      "age": "49",
+      "country": "Ireland"
+    },
+    {
+      "rank": 48,
+      "name": "Aishwarya Al Alsaud",
+      "netWorth": 835000000,
+      "age": "55",
+      "country": "Saudi Arabia"
+    },
+    {
+      "rank": 49,
+      "name": "David Copperfield",
+      "netWorth": 800000000,
+      "age": "58",
+      "country": "United States"
+    },
+    {
+      "rank": 50,
+      "name": "Larry David",
+      "netWorth": 800000000,
+      "age": "67",
+      "country": "United States"
+    }
+  ]
+}

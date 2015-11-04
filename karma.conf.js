@@ -12,12 +12,16 @@ module.exports = function ( karma ) {
      * Filled by the task `gulp karma-conf`
      */
     files: [
-      'bower_components/angular/angular.js',
-      'bower_components/angular-route/angular-route.js',
-      'bower_components/angular-mocks/angular-mocks.js',
-      'src/app/app.js',
-      '.tmp/technicaltest-templates.js',
-    ],
+        'bower_components/angular/angular.js',
+        'bower_components/angular-route/angular-route.js',
+        'bower_components/angular-mocks/angular-mocks.js',
+        'src/app/celebrity/celebrity.js',
+        'src/app/celebrity/celebrity_directive.js',
+        'src/app/celebrity/celebrity_controller.js',
+        'src/app/app.js',
+        '.tmp/technicaltest-templates.js',
+        'src/app/celebrity/celebrity_controller_test.js'
+      ],
 
     frameworks: [ 'mocha', 'chai' ],
     plugins: [ 'karma-mocha', 'karma-chai', 'karma-phantomjs-launcher' ],
