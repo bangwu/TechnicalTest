@@ -3,6 +3,15 @@ TechnicalTest
 
 ## Development
 
+Before start the project, you need install gulp:
+
+```bash
+npm install bower
+npm install gulp
+npm install
+bower install
+```
+
 To start developing in the project run:
 
 ```bash
