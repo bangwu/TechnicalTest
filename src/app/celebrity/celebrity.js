@@ -1,1 +1,6 @@
-angular.module('celebrity', []);
+(function (angular) {
+  'use strict';
+
+  angular.module('celebrity', []);
+
+})(angular);

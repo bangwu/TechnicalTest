@@ -31,7 +31,7 @@ button {
       padding-left: 0px;
       padding-right: 0px; }
       .celebrity-list .sort .sort-group .label {
-        color: black; }
+        color: #000; }
   .celebrity-list .details {
     border: 1px solid #dfdfdf;
     padding-top: 15px;
@@ -42,10 +42,10 @@ button {
       .celebrity-list .details .celebrity .no {
         height: 30px;
         background-color: #335872;
-        color: white;
+        color: #fff;
         padding-top: 6px; }
       .celebrity-list .details .celebrity .name, .celebrity-list .details .celebrity .net-worth, .celebrity-list .details .celebrity .age, .celebrity-list .details .celebrity .country {
-        color: black;
+        color: #000;
         margin: 2%; }
 
 /*# sourceMappingURL=app.css.map */

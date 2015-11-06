@@ -9,6 +9,10 @@ describe('customCurrency', function () {
     customerCurrency = $filter('customCurrency');
   }));
 
+  it('should return aaa if give aaa', function () {
+    customerCurrency('aaa').should.equal('aaa');
+  });
+
   it('should return usa dollar', function () {
     customerCurrency(123).should.equal('$USD 123');
   });
@@ -20,4 +24,5 @@ describe('customCurrency', function () {
   it('should return eua dollar', function () {
     customerCurrency(123, '€').should.equal('€ 112.3,236');
   });
+
 });

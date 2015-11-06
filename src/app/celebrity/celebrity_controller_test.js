@@ -5,12 +5,10 @@ describe('CelebrityListController', function () {
 
   beforeEach(module('celebrity'));
 
-  beforeEach(inject(function ($injector, _$httpBackend_) {
-    scope = $injector.get('$rootScope');
+  beforeEach(inject(function ($injector, _$httpBackend_, $rootScope, $controller) {
+    scope = $rootScope.$new();
     $httpBackend = _$httpBackend_;
-    celebrityListController = function () {
-      return $injector.get('$controller')('CelebrityListController', {'$scope': scope});
-    };
+    celebrityListController = $controller('CelebrityListController', {'$scope': scope});
   }));
 
   it('should load the celebrity rich list', function () {
@@ -32,7 +30,6 @@ describe('CelebrityListController', function () {
           'country': 'Australia'
         }]
     });
-    celebrityListController();
     $httpBackend.flush();
 
     scope.celebrityRichList.pageTitleH1.should.equal('Technical Test');

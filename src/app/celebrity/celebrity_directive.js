@@ -2,19 +2,17 @@
   'use strict';
 
   angular.module('celebrity')
-    .directive('celebrityDetail', function () {
+    .directive('celebrityDetail', [function () {
       return {
-        restrict: 'E',
-        scope: '=',
+        restrict: 'EA',
         templateUrl: '/celebrity/detail.html'
       };
-    })
-    .directive('celebritySort', function () {
+    }])
+    .directive('celebritySort', [function () {
       return {
-        restrict: 'E',
-        scope: '=',
+        restrict: 'EA',
         templateUrl: '/celebrity/sort.html'
       };
-    });
+    }]);
 
 })(angular);

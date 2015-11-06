@@ -1,32 +1,38 @@
-.celebrity-list{
-  background-color: #f4f4f4;
-  border: 1px solid #dfdfdf;
-  .sort{
+$grayBorder: #dfdfdf;
+$celebrityListBgColor: #f4f4f4;
+$celebrityHeaderBgColor: #335872;
+$labelFontColor: #000;
+$celebrityFontColor: #fff;
+
+.celebrity-list {
+  background-color: $celebrityListBgColor;
+  border: 1px solid $grayBorder;
+  .sort {
     padding-left: 0px;
     padding-right: 0px;
-    .sort-group{
+    .sort-group {
       padding-left: 0px;
       padding-right: 0px;
-      .label{
-        color: black;
+      .label {
+        color: $labelFontColor;
       }
     }
   }
-  .details{
-    border: 1px solid #dfdfdf;
+  .details {
+    border: 1px solid $grayBorder;
     padding-top: 15px;
     padding-bottom: 15px;
-    .celebrity{
+    .celebrity {
       text-align: center;
-      border: 1px solid #dfdfdf;
-      .no{
+      border: 1px solid $grayBorder;
+      .no {
         height: 30px;
-        background-color: #335872;
-        color: white;
+        background-color: $celebrityHeaderBgColor;
+        color: $celebrityFontColor;
         padding-top: 6px;
       }
-      .name, .net-worth, .age, .country{
-        color: black;
+      .name, .net-worth, .age, .country {
+        color: $labelFontColor;
         margin: 2%;
       }
     }
