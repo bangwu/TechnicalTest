@@ -1,6 +1,13 @@
 TechnicalTest
 ============
 
+## Status [![Build Status](https://travis-ci.org/bangwu/TechnicalTest.svg?branch=master)](https://travis-ci.org/bangwu/TechnicalTest)
+## Production
+
+`https://celebritylist.herokuapp.com`
+
+
+
 ## Development
 
 Before start the project, you need install gulp:
