@@ -6,7 +6,7 @@
     "node": "0.12.6"
   },
   "scripts": {
-    "start": "gulp watch",
+    "start": "bower install && gulp watch",
     "test": "gulp test"
   },
   "dependencies": {
