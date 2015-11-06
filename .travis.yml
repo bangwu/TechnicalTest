@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.12'
+deploy:
+  provider: heroku
+  api_key:
+    secure: mjO4ni7ZxuE8SV7CQ7VK5bEpeuF+RTda0KUqlXe+1JYewv6rwV9LXPSRj9Ctxg58siTQMCbdAlepeCdRrKrwk1XXxyGHi7pRPik3J6uqosT1qF0sdqJDdTnhrYyfkbRhNkpX5aXQa/mhkJtEgaxhJH6w/npBNym9Sc+PajyQHdQXzaU1tHZl40wxWcBK77biOMxtWwrm36CTX26dPvOtZAfl5u7LMePgPQBxTIhoO2HURwq2P995BHTURJ1aSEtxK2tb/0YXh3ifzDc8v6Ic0ny7+7p5DJPR0+u8P8vSiSZXlW1+UmUTRby6ufz3s4IDbGSgDK1IWhsWuJOZ2YbRwAPlnO4IInGaCQG4GmNzMSlxRUcf1fWiwDzliy1gpYfQMa3UlKoK/UUnfaRRBzk4H8JHW4g+xiWYjZ/wJJOUT3FO6f/9uYny2o9kiCU87GPXXBYrkbFlhGIaWFggF8BvU8JEykcrHSc6OuiV/wu47WnidWQmdBGpJymqXljBGgzHciR3oisfN8W9xUTiNSOTDbYwF58AYuVEykOtekrX1yS8QaiS3DQ73HoIh7Ig6AoFgBfSuLPwu6c7JEqhp6JKngnr+rJAtlLF7hgBubNUNv38BQOn1iP9grj3KiyY7jKGi4pUaO1v2D2fToL36Js7PNXT3F5C/QkYDEeJkB9WP+g=
+  app: celebritylist
+  on:
+    repo: bangwu/TechnicalTest
+before_script:
+- npm install
+- bower install
