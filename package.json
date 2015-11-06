@@ -2,6 +2,7 @@
   "name": "technicaltest",
   "version": "0.1.0",
   "private": true,
+  "engines":{"node":"0.12.6"},
   "scripts": {
     "start": "gulp watch",
     "test": "gulp test"
